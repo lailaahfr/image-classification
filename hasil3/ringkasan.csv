@@ -1,0 +1,13 @@
+Aspek,Hasil
+Citra asli / sampel augmentasi,194 / 776
+Distribusi kelas (citra asli),"rapi 97, berantakan 97"
+Jumlah fitur,53 (14 fitur tugas + 39 fitur tambahan)
+Protokol validasi,"10-fold stratified pada citra asli; latih = 4 variasi, validasi = citra asli"
+"Akurasi tahap 1 (KNN, 14 fitur)",60.95%
+Akurasi Soft Voting 14 fitur,68.13%
+Akurasi Soft Voting 53 fitur,85.58%
+Akurasi Soft Voting 53 fitur + augmentasi,88.61% ± 6.49%
+ROC AUC Soft Voting 53 fitur + augmentasi,0.9290
+Ambang optimal / akurasi pada ambang itu,"0.55 / 89.69% (optimis, dipilih dari data yang sama)"
+Metode terbaik (komparasi),"Weighted Soft Voting (SVM:2, ET:2, GB:1): 88.61%"
+File model,hasil3/model_terbaik_penataan_sepatu.pkl

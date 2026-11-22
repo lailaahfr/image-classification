@@ -1,0 +1,13 @@
+Kategori,Model,Akurasi,Std,F1,ROC AUC
+Ensemble,"Weighted Soft Voting (SVM:2, ET:2, GB:1)",0.8861,0.0649,0.8879,0.929
+Ensemble,Stacking (meta: Logistic Regression),0.8861,0.0649,0.8879,0.9049
+Model Tunggal,SVM RBF,0.8711,0.0737,0.8731,0.9185
+Ensemble,Hard Voting (SVM + ET + GB),0.8505,0.0899,0.8439,
+Model Tunggal,KNN (k=5),0.8455,0.1108,0.8424,0.9127
+Bagging,Extra Trees,0.8405,0.1131,0.8297,0.9132
+Boosting,Gradient Boosting,0.83,0.1096,0.8294,0.8941
+Boosting,AdaBoost,0.8205,0.1114,0.829,0.8752
+Bagging,Random Forest,0.7932,0.1051,0.7903,0.8783
+Model Tunggal,Logistic Regression,0.7624,0.1039,0.7675,0.8345
+Model Tunggal,Decision Tree,0.6897,0.1256,0.7095,0.6578
+Model Tunggal,Naive Bayes,0.6639,0.1758,0.5571,0.7377

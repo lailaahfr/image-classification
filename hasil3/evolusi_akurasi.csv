@@ -1,0 +1,6 @@
+Tahap,Fitur,Augmentasi,Akurasi,Std,ROC AUC
+1. Baseline KNN,14 (RGB + GLCM),Tidak,0.6095,0.1094,0.6753
+2. SVM RBF,14 (RGB + GLCM),Tidak,0.6811,0.0893,0.7493
+3. Soft Voting,14 (RGB + GLCM),Tidak,0.6813,0.1306,0.7739
+4. Soft Voting,53 (multimodal),Tidak,0.8558,0.068,0.9208
+5. Soft Voting + Augmentasi 4x,53 (multimodal),Ya,0.8861,0.0649,0.929

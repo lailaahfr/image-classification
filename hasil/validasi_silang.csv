@@ -1,0 +1,10 @@
+model,akurasi_rata2,akurasi_std,akurasi_min,akurasi_maks,selisih_baseline
+KNN,0.6821,0.0745,0.5385,0.7949,0.1821
+SVM (RBF),0.665,0.0651,0.5641,0.7692,0.165
+Voting Classifier,0.6496,0.0708,0.5128,0.7436,0.1496
+Random Forest,0.6495,0.0751,0.5128,0.8205,0.1495
+Gradient Boosting,0.6393,0.0702,0.4872,0.7692,0.1393
+Logistic Regression,0.6273,0.0852,0.4615,0.7692,0.1273
+AdaBoost,0.6153,0.0698,0.4872,0.7368,0.1153
+Decision Tree,0.5862,0.0656,0.4615,0.6923,0.0862
+Naive Bayes,0.5773,0.0552,0.4359,0.6923,0.0773

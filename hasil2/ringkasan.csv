@@ -1,0 +1,14 @@
+Pertanyaan,Hasil
+Jumlah data,"194 citra (rapi 97, berantakan 97)"
+Pembagian data,"155 latih : 39 uji (80:20, stratified)"
+Jumlah fitur,"tugas 14, semua 53"
+"Fitur signifikan (ANOVA p<0,05)","tugas 1/14, revisi 15/39"
+Baseline,50.00%
+Akurasi CV terbaik E1,68.21% (rata-rata 9 model 63.36%)
+Akurasi CV terbaik E2,83.35% (rata-rata 9 model 75.00%)
+Akurasi CV terbaik E3,79.04% (rata-rata 9 model 74.15%)
+Kenaikan E1 -> terbaik E2/E3,+15.14 poin persen
+Model terbaik (validasi silang),SVM (RBF) — E2: 53 fitur: 83.35% ± 4.63%
+Recall rapi / berantakan,86.60% / 85.57%
+Akurasi data uji tertinggi,SVM (RBF) — E2: 53 fitur: 79.49%
+5 fitur terpenting,"hu_1, num_contours, std_r, band_bawah, lbp_std"
